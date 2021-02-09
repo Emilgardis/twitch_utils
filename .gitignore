@@ -15,5 +15,6 @@ coverage_reports/
 **/.cargo
 **/.*
 !.github/
+!.cargo/
 !.vscode/
 !.vscode/settings.json
