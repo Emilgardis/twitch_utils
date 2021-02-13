@@ -147,3 +147,8 @@ required-features = ["reqwest_client", "helix"]
 
 [package.metadata.docs.rs]
 features = ["all", "unsupported"]
+
+[workspace]
+members = [".","xtask"]
+default-members = ["."]
+
