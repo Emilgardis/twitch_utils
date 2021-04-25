@@ -592,6 +592,7 @@ fn test_verification_response() {
 }
 
 #[test]
+#[cfg(feature = "hmac")]
 fn verify_request() {
     use http::header::{HeaderMap, HeaderName, HeaderValue};
 
