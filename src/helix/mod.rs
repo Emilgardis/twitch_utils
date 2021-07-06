@@ -60,7 +60,6 @@ pub mod tags;
 pub mod teams;
 pub mod users;
 pub mod videos;
-pub mod webhooks;
 
 pub(crate) mod ser;
 pub(crate) use crate::deserialize_default_from_null;
